@@ -4,10 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dharshana T | Portfolio</title>
-
 <style>
-
-/* 🔥 ANIMATED BACKGROUND */
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -16,15 +13,11 @@ body {
     animation: gradientMove 10s ease infinite;
     color: #c9d1d9;
 }
-
-/* Animation */
 @keyframes gradientMove {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
-
-/* ✨ GLOW EFFECT */
 body::before, body::after {
     content: "";
     position: fixed;
@@ -34,7 +27,6 @@ body::before, body::after {
     filter: blur(100px);
     z-index: -1;
 }
-
 body::before {
     background: #58a6ff;
     top: 10%;
@@ -46,8 +38,6 @@ body::after {
     bottom: 10%;
     right: 10%;
 }
-
-/* HEADER */
 .header {
     text-align: center;
     padding: 40px 20px;
@@ -56,15 +46,11 @@ body::after {
     border-bottom: 1px solid #30363d;
     animation: float 6s ease-in-out infinite;
 }
-
-/* Floating */
 @keyframes float {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0px); }
 }
-
-/* Gradient Name */
 .header h1 {
     margin: 15px 0 5px;
     font-size: 32px;
@@ -72,11 +58,9 @@ body::after {
     -webkit-background-clip: text;
     color: transparent;
 }
-
 .header p {
     color: #8b949e;
 }
-
 .header img {
     width: 130px;
     height: 130px;
@@ -84,29 +68,21 @@ body::after {
     border: 4px solid #58a6ff;
     box-shadow: 0 0 20px rgba(88,166,255,0.5);
 }
-
-/* CONTAINER */
 .container {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
 }
-
-/* GRID */
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-
-/* SECTION */
 .section h2 {
     border-left: 4px solid #58a6ff;
     padding-left: 10px;
     color: white;
 }
-
-/* BOX */
 .box {
     background: rgba(22,27,34,0.6);
     padding: 15px;
@@ -115,24 +91,18 @@ body::after {
     margin-top: 10px;
     transition: 0.3s;
 }
-
 .box:hover {
     transform: translateY(-6px);
     box-shadow: 0 0 20px rgba(88,166,255,0.3);
 }
-
-/* LIST */
 ul {
     list-style: none;
     padding: 0;
 }
-
 ul li {
     padding: 8px;
     border-bottom: 1px solid #30363d;
 }
-
-/* SKILL BAR */
 .bar {
     width: 100%;
     height: 8px;
@@ -140,19 +110,15 @@ ul li {
     border-radius: 10px;
     margin: 8px 0;
 }
-
 .bar div {
     height: 8px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255,255,255,0.2);
 }
-
 .cpp { width: 80%; background: #58a6ff; }
 .c { width: 75%; background: #2ea043; }
 .ds { width: 70%; background: #f2cc60; }
 .web { width: 85%; background: #ff7b72; }
-
-/* BUTTON */
 .btn {
     display: inline-block;
     padding: 10px 18px;
@@ -161,12 +127,9 @@ ul li {
     border-radius: 8px;
     text-decoration: none;
 }
-
 .btn:hover {
     box-shadow: 0 0 10px #58a6ff;
 }
-
-/* LINKS */
 a {
     color: #58a6ff;
     text-decoration: none;
@@ -178,30 +141,21 @@ a {
     padding: 15px;
     color: #8b949e;
 }
-
-/* MOBILE */
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr;
     }
 }
-
 </style>
 </head>
-
 <body>
-
-<!-- HEADER -->
 <div class="header">
     <img src="PHOTO.jpeg">
     <h1>Hello I'm Dharshana T</h1>
     <p>Computer Science Student | Problem Solver | Web Developer</p>
 </div>
-
-<!-- CONTENT -->
 <div class="container">
 <div class="grid">
-
 <div class="section">
 <h2>About Me</h2>
 <div class="box">
@@ -209,7 +163,6 @@ Hello! I'm <b>Dharshana T</b>, a passionate student who enjoys learning programm
 I have knowledge in C, C++, Data Structures, and Web Development.
 </div>
 </div>
-
 <div class="section">
 <h2>Skills</h2>
 <div class="box">
@@ -221,7 +174,6 @@ I have knowledge in C, C++, Data Structures, and Web Development.
 </ul>
 </div>
 </div>
-
 <div class="section">
 <h2>Coding Skills</h2>
 <div class="box">
@@ -231,7 +183,6 @@ Data Structures<div class="bar"><div class="ds"></div></div>
 Web Development<div class="bar"><div class="web"></div></div>
 </div>
 </div>
-
 <div class="section">
 <h2>Coding Platforms</h2>
 <div class="box">
@@ -242,7 +193,6 @@ Web Development<div class="bar"><div class="web"></div></div>
 </ul>
 </div>
 </div>
-
 <div class="section">
 <h2>Certificates</h2>
 <div class="box">
@@ -250,7 +200,6 @@ Web Development<div class="bar"><div class="web"></div></div>
 <a href="future skills certificate.png" target="_blank" class="btn">View Certificate</a>
 </div>
 </div>
-
 <div class="section">
 <h2>Project</h2>
 <div class="box">
@@ -258,7 +207,6 @@ Web Development<div class="bar"><div class="web"></div></div>
 Developed a web-based system.
 </div>
 </div>
-
 <div class="section">
 <h2>Contact</h2>
 <div class="box">
@@ -266,13 +214,10 @@ Developed a web-based system.
 <p><a href="mailto:dharshanathirupathi23@gmail.com">Emaildharshanathirupathi23@gmail.com</a></p>
 </div>
 </div>
-
 </div>
 </div>
-
 <div class="footer">
 © 2026 Dharshana T
 </div>
-
 </body>
 </html>
